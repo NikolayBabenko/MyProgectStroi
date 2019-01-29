@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MaterialFor</string>
+    <string name="mp75">MP75</string>
+    <string name="Crisel">Crisel</string>
+    <string name="res_mp75">res_mp75</string>
+    <string name="res_crisel">res_crisel</string>
+    <string name="squareMeters">Квадратура</string>
+    <string name="bags">Кол-во мешков</string>
+    <string name="priseForAll">Стоимость работы</string>
+
+</resources>
