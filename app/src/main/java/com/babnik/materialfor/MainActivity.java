@@ -22,8 +22,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         craser = (EditText) findViewById(R.id.crazer);
         mp75 = (EditText) findViewById(R.id.mp75);
 
-        res_mp75 = (TextView) findViewById(R.id.res_mp75);
-        res_craser = (TextView) findViewById(R.id.res_craser);
+        //res_mp75 = (TextView) findViewById(R.id.res_mp75);
+       // res_craser = (TextView) findViewById(R.id.res_craser);
         vsego = (EditText) findViewById(R.id.vsego);
         itogo = (TextView) findViewById(R.id.itogo);
 
@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         res_mp75.setText( mp75Int/ 7 * 4 +"");
         int craserInt = Integer.parseInt(craser.getText().toString());
         res_craser.setText(craser.getText().toString());
-        itogo.setText(((mp75Int + craserInt)* Integer.parseInt(vsego.getText().toString()))/2/3 +"");
+        itogo.setText(((mp75Int + craserInt)* Integer.parseInt(vsego.getText().toString()))+"");
         }
 
 

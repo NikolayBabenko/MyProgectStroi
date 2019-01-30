@@ -7,5 +7,7 @@
     <string name="squareMeters">Квадратура</string>
     <string name="bags">Кол-во мешков</string>
     <string name="priseForAll">Стоимость работы</string>
+    <string name="priseAll">Стоимость работы</string>
+    <string name="btnStart">Итоговый результат</string>
 
 </resources>
